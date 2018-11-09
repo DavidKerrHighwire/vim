@@ -1,8 +1,7 @@
 execute pathogen#infect()
 filetype plugin indent on
 filetype on
-"set shell=/bin/bash
-
+set shell=/bin/bash
 syntax on
 syntax enable
 set guifont=Consolas:h18
@@ -29,11 +28,10 @@ set splitbelow
 set splitright
 
 set showmatch
-
+let g:solarized_use16 = 1
 set background=dark
-set termguicolors
-colorscheme base16-default-dark
-
+let g:solarized_termcolors=256
+colorscheme solarized
 " Custom Mappings "
 "map <C-k><C-b> :NERDTreeToggle<CR>"
 
