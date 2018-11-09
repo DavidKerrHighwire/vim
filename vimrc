@@ -1,7 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
 filetype on
-colorscheme base16-default-dark
 "set shell=/bin/bash
 
 syntax on
@@ -30,6 +29,11 @@ set splitbelow
 set splitright
 
 set showmatch
+
+set background=dark
+set termguicolors
+colorscheme base16-default-dark
+
 " Custom Mappings "
 "map <C-k><C-b> :NERDTreeToggle<CR>"
 
