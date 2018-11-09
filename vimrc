@@ -32,6 +32,7 @@ let g:solarized_use16 = 1
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+set t_ut=
 " Custom Mappings "
 "map <C-k><C-b> :NERDTreeToggle<CR>"
 
