@@ -36,7 +36,11 @@ colorscheme solarized
 
 
 " Custom Mappings "
-map <C-k><C-b> :NERDTreeToggle<CR>
+"map <C-k><C-b> :NERDTreeToggle<CR>"
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 map <C-t><up> :tabr<cr>
 map <C-t><down> :tabl<cr>
 map <C-t><left> :tabp<cr>
