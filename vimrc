@@ -1,6 +1,9 @@
 execute pathogen#infect()
 filetype plugin indent on
 filetype on
+
+set shell=/bin/bash
+
 syntax on
 syntax enable
 set guifont=Consolas:h18
@@ -14,10 +17,27 @@ set nowrap
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set linespace=15
 set smartindent
 set autoindent
+
+" Search "
 set hlsearch
+set incsearch
+
+"-------------------Split management------------------"
+set splitbelow
+set splitright
+
 set showmatch
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+
+
+" Custom Mappings "
+map <C-k><C-b> :NERDTreeToggle<CR>
+map <C-t><up> :tabr<cr>
+map <C-t><down> :tabl<cr>
+map <C-t><left> :tabp<cr>
+map <C-t><right> :tabn<cr>
